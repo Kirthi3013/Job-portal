@@ -23,9 +23,6 @@ const Navbar = () => {
         <Box>
           {user ? (
             <>
-              <Typography variant="body1" component="span" sx={{ mr: 2 }}>
-                Welcome, {user.username}
-              </Typography>
               <Button color="inherit" onClick={handleLogout}>
                 Logout
               </Button>
